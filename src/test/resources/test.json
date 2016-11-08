@@ -1,0 +1,50 @@
+[
+	{"key": "1",
+        "root": {
+            "type": 0,
+            "element": {
+                "op": "WHEN"
+            },
+            "left": {
+                "type": 0,
+                "element": {
+                    "op": "AND"
+                },
+				"left": {
+					"type": 0,
+					"element": {
+						"op": "OR"
+					},
+					"left": {
+						"type": 1,
+						"element": {
+							"type": "condition",
+							"metaId": "sys:false"
+						}
+					},
+					"right": {
+						"type": 1,
+						"element": {
+							"type": "condition",
+							"metaId": "sys:true"
+						}
+					}
+				},
+				"right": {
+					"type": 1,
+					"element": {
+						"type": "condition",
+						"metaId": "sys:true"
+					}
+				}
+            },
+            "right": {
+                "type": 1,
+                "element": {
+                    "type": "action",
+                    "metaId": "print:test"
+                }
+            }
+        }
+    }
+]
