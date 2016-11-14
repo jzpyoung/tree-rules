@@ -1,6 +1,6 @@
 # tree-rules API文档
 
-+ 解析script表达式:
++ 解析script表达式：
 	
 	```Java
 	Map<String, List<Element>> process = scriptParser.parse(script);
