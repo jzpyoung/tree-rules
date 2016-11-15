@@ -28,5 +28,5 @@
 + 返回结果：
 
     ```Java
-    String promotion = context.get(CommonContextNames.NAME_OUT_TEST);
+    String result = context.get(CommonContextNames.NAME_OUT_TEST);
     ```
